@@ -21721,8 +21721,8 @@ dl li {
 /* === Landing screens === */
 /* Auth */
 .auth .login-half-bg {
-  background: url("../images/auth/login-bg.jpg");
-  background-size: cover;
+  background: url("../images/imges.png");
+  /* background-size: cover; */
 }
 
 .auth .register-half-bg {
@@ -21757,16 +21757,7 @@ dl li {
   background: transparent;
 }
 
-.auth .auth-form-transparent .form-control,
-.auth .auth-form-transparent .input-group-text {
-  border-color: #a3a4a5;
-}
 
-.auth .auth-form-transparent .form-control:focus, .auth .auth-form-transparent .form-control:active,
-.auth .auth-form-transparent .input-group-text:focus,
-.auth .auth-form-transparent .input-group-text:active {
-  border-color: #a3a4a5;
-}
 
 .auth .auth-form-transparent select {
   outline-color: #a3a4a5;
@@ -21800,7 +21791,7 @@ dl li {
 }
 
 .auth form .form-group .form-control {
-  background: transparent;
+  /* background: transparent; */
   border-radius: 0;
   font-size: .9375rem;
 }
